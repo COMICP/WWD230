@@ -1,0 +1,241 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url("https://use.typekit.net/eju0avm.css");
+:root {
+
+  --primary-color: #eef2f6   ;
+  --secondary-color: #252525 ;
+  --accent1-color: #323e49;
+  --accent2-color: #fdb527;
+
+
+  --heading-font: "Source Serif 4 ExtraLight";
+  --paragraph-font: "Source Serif 4 Subhead Regular", Helvetica, sans-serif;
+
+  --headline-color-on-white: #252525; 
+  --headline-color-on-color: white; 
+  --paragraph-color-on-white: #252525;
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #252525  ;
+  --nav-link-color: white;
+  --nav-background-color: #323e49;
+  --nav-hover-link-color: #fdb527;
+  --nav-hover-background-color: #252525;
+}
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+p{
+    font-family: var(--paragraph-font);
+    color: var(--headline-color-on-white);
+}
+
+.body{
+    background-color: var(--primary-color);
+    
+    margin: 0%;
+    
+}
+header{
+    z-index: 10;
+    max-width: 100%;
+    display: grid;
+    position: fixed;
+    grid-template-columns: 4fr 1fr 2fr 1fr 4fr;
+    grid-template-rows: 100px;
+    background-color: #252525;
+}
+#ban{
+    display: grid;
+}
+#logo{
+    max-height: 100%;
+    
+}
+#logo_link{
+    grid-column-start: 3;
+    text-align: center;
+}
+.work{
+    grid-column: 4/5 ;
+    margin: auto;
+}
+.cont{
+    grid-column: 2/3;
+    margin: auto;
+    text-align: left;
+}
+.work, .cont{
+    max-height: 100%;
+    font-size: 70px;
+    
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    
+}
+.work:hover, .cont:hover, .cont2:hover{
+    
+    background-color: var(--nav-background-color);
+    color: var(--accent2-color);
+}
+
+
+
+
+
+.ban{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+}
+.Hero, .Hero2{
+    z-index: 1;
+    max-width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    outline-style: solid;
+    
+    outline-color: var(--headline-color-on-white);
+}
+.Hero2{
+    position: fixed;
+}
+.bin{
+    font-size: 14vw;
+    grid-row: 1/3;
+    grid-column: 1/4;
+    
+    
+    text-align: center;
+    margin-top: 10%;
+    
+ 
+    
+}
+
+
+
+
+
+
+
+.pricing{
+   padding: 50px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+}
+.cont2{
+    grid-column: 2/3;
+    margin: auto;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 70px;
+    background-color: var(--headline-color-on-white);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;  
+}
+.wed{
+    grid-column: 1/2;
+}
+.por{
+    grid-column: 2/3;
+}
+.real{
+    grid-column: 3/4;
+}
+.pot{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 400%;
+    border: 10px;
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: var(--headline-color-on-white);
+    max-width: 1080px;
+
+}
+
+.wed, .por, .real{
+    grid-row: 3/4;
+    text-align: center;
+    padding: 10%;
+    font-size: 200%;
+    border: 10px;
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: var(--headline-color-on-white);
+    margin: 20PX;
+
+}
+
+
+
+
+
+
+footer{
+    margin: 0%;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 50px 50px;
+    background-color: #252525;
+}
+
+.sp{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: var(--heading-font);
+    font-size: 20px;
+}
+.b1{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 200%;
+
+}
+.b2{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-size: 100%;
+}
+.b1, .b2, .sp{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-decoration: none;
+    
+} 
+.in{
+    text-align: right;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+.insta{
+    max-height: 90px;
+    
+
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url("https://use.typekit.net/eju0avm.css");
+
+:root {
+
+    --primary-color: #eef2f6   ;
+    --secondary-color: #252525 ;
+    --accent1-color: #323e49;
+    --accent2-color: #fdb527;
+  
+  
+    --heading-font: "Source Serif 4 ExtraLight";
+    --paragraph-font: "Source Serif 4 Subhead Regular", Helvetica, sans-serif;
+  
+    --headline-color-on-white: #252525; 
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #252525;
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: #252525  ;
+    --nav-link-color: white;
+    --nav-background-color: #323e49;
+    --nav-hover-link-color: #fdb527;
+    --nav-hover-background-color: #252525;
+  }
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+p{
+    font-family: var(--paragraph-font);
+    color: var(--headline-color-on-white);
+}
+#classes{
+    border-bottom: 1px dashed black ;
+    max-width: 940px;
+}
+body{
+    margin: 0px;
+    padding: 0%;
+    padding-top: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: bisque;
+    border-bottom-left-radius: 30px ;
+    border-radius: 30px;
+    box-shadow: 10px 10px var(--headline-color-on-white);
+}
+#hero{
+    max-width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    
+    margin: 30px;
+}
+#name{
+    text-align: center;
+    margin: auto;
+    font-size: 70px;
+}
+
+
+#main{
+    padding-left: 30px;
+    
+}
+.lines{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+}
+#disc{
+    border-top:1px dashed black  ;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    max-width: 940px;
+    font-style: italic;
+}
+footer{
+    display: grid;
+    grid-template-rows: 40px 40px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: bisque;
+    border-radius: 30px;
+    box-shadow: 10px 10px var(--headline-color-on-white);
+}
+#copy{
+    text-align: center;
+    margin: auto;
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+}
+#Last{
+    text-align: center; 
+    margin: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+   
+}
