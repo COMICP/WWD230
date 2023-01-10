@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Source+Code+Pro:ital,wght@0,400;1,600&display=swap');
 @import url("https://use.typekit.net/eju0avm.css");
+
 
 :root {
 
@@ -7,6 +9,9 @@
     --secondary-color: #252525 ;
     --accent1-color: #323e49;
     --accent2-color: #fdb527;
+
+    font-family: 'Dangrek', cursive;
+    font-family: 'Source Code Pro', monospace;
   
   
     --heading-font: "Source Serif 4 ExtraLight";

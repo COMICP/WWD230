@@ -1,0 +1,28 @@
+@media screen and (min-width: 32.5em) {
+    body{
+        background-color: #252525;
+        
+
+    }
+    h1, h2, h3, h4 {
+        color: var(--primary-color);
+    
+    }
+    p{
+        color: var(--primary-color);
+    }
+    footer{
+        background-color: var(--nav-background-color);
+        box-shadow: 10px 10px bisque;
+    }
+    header{
+        background-color: var(--nav-background-color);
+        box-shadow: 10px 10px bisque;
+    }
+    #classes{
+        border-bottom: 1px dashed white ;
+    }
+    #disc{
+        border-top:1px dashed white  ;
+    }
+}
