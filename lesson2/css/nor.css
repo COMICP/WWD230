@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Source+Code+Pro:ital,wght@0,400;1,600&display=swap');
+
+:root{
+    font-family: 'Dangrek', cursive;
+    font-family: 'Source Code Pro', monospace;
+    --standwidt: 97vw;
+
+    
+    
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Dangrek', cursive;
+    text-align: center;
+    
+}
+a{
+    padding: 10px;
+    
+}
+
+
+p{
+    font-family: 'Source Code Pro', monospace;
+    margin: auto; 
+    padding: 10px;
+}
+body{
+    margin: 0px;
+    padding: 0%;
+    
+    
+}
+
+main{
+    margin: 0px;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header{
+    background-color: bisque;
+    border-radius: 10px;
+    max-width: 97vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top{
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 10px;
+}
+.sect{
+    margin: 0px;
+    padding: 0%;
+    max-width: var(--standwidt);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.words{
+    max-width: var(--standwidt);
+}
+img{
+    max-width: var(--standwidt);
+    margin-top: 10px;
+    
+    border-radius: 10px;
+}

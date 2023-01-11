@@ -1,0 +1,14 @@
+@media screen and (min-width: 32.5em) {
+    :root{
+        font-family: 'Dangrek', cursive;
+        font-family: 'Source Code Pro', monospace;
+        --standwidt: 30vw;
+    
+        
+        
+    
+    }
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
