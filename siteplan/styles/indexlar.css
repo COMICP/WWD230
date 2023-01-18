@@ -1,0 +1,74 @@
+
+:root{
+    --primary-color: #eef2f6   ;
+    --secondary-color: #252525 ;
+    --accent1-color: #323e49;
+    --accent2-color: #fdb527;
+    --fontsizebig: 12em;
+    --fontsizebigish: 9em;
+    --fontsizemed:5em;
+    --fontsmall:3em;
+}
+h1, h2, h3, h4{
+    font-family: 'Major Mono Display', monospace;
+    color: var(--primary-color);
+    
+
+}
+h1{
+    font-size: var(--fontsizebig);
+    margin-top: 20px;
+   
+}
+h2{
+    font-size: var(--fontsizebigish);
+}
+h3{
+    font-size: var(--fontsizemed) ;
+}
+h4{
+    font-size: var(--fontsmall);
+}
+p, a{
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--primary-color);
+    font-size: var(--fontsmall);
+}
+body{
+    background-color: var(--secondary-color);
+    max-width: fit-content;
+    margin: auto;
+}
+#one{
+    background-color: var(--primary-color);
+    color: #252525;
+}
+#two{
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+#three{
+    background-color: var(--accent2-color);
+    color: #252525;
+}
+.links{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #323e49;
+    max-width: fit-content;
+    
+}
+
+
+.links :hover{
+    background-color: #fdb527;
+    padding: 20px;
+    
+}
+a{
+    padding: 20px;
+}
+img{
+    max-width: 50vw;
+    text-align: center;
+}
