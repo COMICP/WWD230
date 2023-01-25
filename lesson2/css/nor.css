@@ -70,3 +70,25 @@ img{
     
     border-radius: 10px;
 }
+#copy{
+    text-align: center;
+    margin: auto;
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+}
+#Last{
+    text-align: center; 
+    margin: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+   
+}
+footer{
+    display: grid;
+    grid-template-rows: 40px 40px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: bisque;
+    border-radius: 30px;
+    box-shadow: 10px 10px var(--headline-color-on-white);
+}
