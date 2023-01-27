@@ -1,8 +1,8 @@
 
 :root{
-    --primary-color: #eef2f6   ;
-    --secondary-color: #252525 ;
-    --accent1-color: #323e49;
+    --primary-color: #000000   ;
+    --secondary-color: white ;
+    --accent1-color: #99c0e4;
     --accent2-color: #fdb527;
     --fontsizebig: 12em;
     --fontsizebigish: 9em;
@@ -10,7 +10,8 @@
     --fontsmall:3em;
 }
 h1, h2, h3, h4{
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Gentium Plus', serif;
+
     color: var(--primary-color);
     
 
@@ -30,7 +31,8 @@ h4{
     font-size: var(--fontsmall);
 }
 p, a{
-    font-family: 'Share Tech Mono', monospace;
+
+    font-family: 'Work Sans', sans-serif;
     color: var(--primary-color);
     font-size: var(--fontsmall);
 }
@@ -54,14 +56,14 @@ body{
 .links{
     padding: 20px;
     border-radius: 10px;
-    background-color: #323e49;
+    background-color: var(--accent1-color);
     max-width: fit-content;
     
 }
 
 
 .links :hover{
-    background-color: #fdb527;
+    background-color: var(--accent2-color);
     padding: 20px;
     
 }
