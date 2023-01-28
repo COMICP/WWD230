@@ -1,14 +1,11 @@
 
-@media screen and (max-width: 32.5em) {
+@media screen and (max-width: 40.5em) {
 :root{
-    --primary-color: #eef2f6   ;
-    --secondary-color: #252525 ;
-    --accent1-color: #323e49;
-    --accent2-color: #fdb527;
-    --fontsizebig: 4em;
-    --fontsizebigish: 3em;
-    --fontsizemed:2em;
-    --fontsmall:2em;
+
+    --fontsizebig: 3em;
+    --fontsizebigish: 2em;
+    --fontsizemed:1em;
+    --fontsmall:1em;
 }
 }
 body{
