@@ -1,0 +1,127 @@
+@media only screen and (min-width: 35rem) {
+    
+:root{
+
+    --fontsizebig: 3vw;
+    --fontsizebigish: 2vw;
+    --fontsizemed:2vw;
+    --fontsmall:2vw;
+    --logosize: 9vw;
+    --social: 5vw;
+    --header: 10vw:
+}
+header{
+    
+    grid-template-rows: 10vw 10vw;
+
+}
+#title{
+    grid-template-rows: 5vw 5vw;
+}
+#date{
+    
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    
+    
+
+}
+#social{
+    display: flex;
+}
+#social a img{
+    margin: 2.5vw;
+}
+nav button{
+    display: block;
+
+    font-size: 5vw;
+    margin-top: 1vw;
+    
+}
+main{
+    display: grid;
+    grid-template-rows: 35vw 35vw 35vw 35vw 35vw;
+}
+main div{
+    height: 30vw;
+}
+#spotlight{
+    height: 30vw;
+    
+    display: flex;
+}
+.spotlight{
+    margin: 2vw;
+    width: 40vw;
+    height: 25vw;
+}
+#event{
+    width: 55vw;
+    margin-left: 3.5vw;
+    
+
+}
+#event, #weather{
+    
+    grid-row: 5/6;
+    grid-column: 1/2;
+    
+}
+#weather{
+    width: 30vw;
+    margin-right: 3.5vw;
+}
+#join{
+    display: flex;
+}
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+footer img{
+    height: 100px;
+    margin-left: 10vw;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#adr{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 25vw;
+}
+#adr h2, p{
+    text-align: left;
+    
+}
+#info{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#info p, a{
+    text-align: center;
+}
+#copywrite{
+    grid-column: 1/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+
+#copywrite h2, #copywrite p{
+    white-space: nowrap;
+    padding: 0%;
+    
+    
+}
+.left{
+    text-align: left;
+}
+
+}

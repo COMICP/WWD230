@@ -9,7 +9,7 @@
     --fontsizemed:3.5vw;
     --fontsmall:3.5vw;
     --logosize: 18vw;
-    --social: 10vw;
+    --social: 8vw;
     --header: 10vw:
 }
 h1, h2, h3, h4{
@@ -80,7 +80,12 @@ header{
 }
 
 #social a img{
+    display: block;
     max-width:var(--social);
+    margin: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 
 }
 
@@ -93,24 +98,53 @@ nav button{
     margin: .2rem 2vw;
     background-color: transparent;
     border-color: transparent;
-    font-size: 2rem;
+    font-size: 10vw;
+    margin-top: 2vw;
+    
 }
 nav ul {
     list-style-type: none;
-    padding: 0px;
-    margin: 0;
+    display: none;
+    position: relative;
+    right: 20vw;
+   
+    background-color: var(--accent2-color);
+    padding: 10px;
+    margin-right: 0;
+    z-index: 100;
+    width: 20vw;
+    
+}
+nav ul.open{
+    display: block;
 }
 nav ul li a{
-    background-color: black;
+    background-color: var(--accent2-color);
     display: block;
-    border-top: 1px black;
+    text-decoration: none;
+    text-align: center;
+    border-top:solid;
     padding: .8rem 2vw;
-    
+    z-index: 100;
     
    
 }
-nav ul li a.hover{
+nav ul li a:hover{
     background-color: rgba(0,0,0,.5);
+}
+#hamburgerButton span:nth-child(1){
+    display: block;
+}
+#hamburgerButton span:nth-child(2){
+    display: none;
+}
+
+
+#hamburgerButton.open span:nth-child(1){
+    display: none;
+}
+#hamburgerButton.open span:nth-child(2){
+    display: block;
 }
 #date{
     grid-column: 1/4;
@@ -132,7 +166,7 @@ nav ul li a.hover{
 .links{
     padding: 20px;
     border-radius: 10px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     
     
 }
@@ -143,8 +177,36 @@ nav ul li a.hover{
     padding: 20px;
     
 }
+main{
+    display: block;
 
+}
+main div{
+    display: block;
+    width: 90vw;
+    height: 50vw;
+    background-color: rgba(0, 0, 0, .2);
+    border: solid;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+#spotlight{
+    height: 100vw;
+}
+#spot3{
+    display: none;
+}
+.spotlight{
+    width: 80vw;
+    height: 40vw;
+    background-color: transparent;
+    margin-top: 5vw;
+}
+#join{
+    display: none;
+}
 footer{
     padding-top: 20px;
     display: block;
