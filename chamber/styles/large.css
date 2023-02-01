@@ -8,6 +8,8 @@
         --fontsmall:1vw;
         --logosize: 4.5vw;
         --social: 2.5vw;
+        --img: 48vw;
+        --imgh: 64vh;
 
     }
     header{
@@ -76,6 +78,9 @@
         
 
     }
+    #hero h1{
+        font-size: 2vw;
+    }
     #news{
         grid-row: 3/4;
         grid-column: 2/3;
@@ -117,9 +122,10 @@
     }
     header nav{
         
+        
         grid-column: 2/3;
         grid-row: 1/2;
-        margin-left: 0;
+        margin-left: 0px;
         padding: 0%;
     }
     nav ul li a{
@@ -128,10 +134,39 @@
         font-size: var(--fontsizebigish);
         height: fit-content;
         width: 6vw;
+        
     }
     nav ul{
         background-color: transparent;
-        margin: 0;
+        margin: 0px;
+        position: relative;
+        
+    }
+    #weather h1{
+        margin-bottom: 8vw;
+    }
+    #weather div{
+        width: 20vw;
+    }
+    #weather img{
+        height: 6vw;
+        top: 3vw;
+    }
+    #weather h2{
+        top: 1vw;
+    }
+    .spotlight{
+        width: 20vw;
+    }
+    .spotlight img{
+        height: 4vw;
+        top: 3vw;
+    }
+    .spotlight h1{
+        margin-bottom: 5vw;
+    }
+    .spotlight div{
+        width: 15vw;
     }
     footer{
         display:grid;

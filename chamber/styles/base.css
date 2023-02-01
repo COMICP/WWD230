@@ -3,13 +3,15 @@
     --primary-color: #000000   ;
     --secondary-color: white ;
     --accent1-color: #99c0e4;
-    --accent2-color: #fdb527;
+    --accent2-color: #ffce6d;
     --fontsizebig: 5vw;
     --fontsizebigish: 3.5vw;
     --fontsizemed:3.5vw;
     --fontsmall:3.5vw;
     --logosize: 18vw;
     --social: 8vw;
+    --img: 90vw;
+    --imgh: 50vw;
 
 }
 h1, h2, h3, h4{
@@ -105,7 +107,7 @@ nav button{
 nav ul {
     list-style-type: none;
     display: none;
-    position: relative;
+    position: absolute;
     right: 20vw;
    
     background-color: var(--accent2-color);
@@ -185,24 +187,149 @@ main div{
     display: block;
     width: 90vw;
     height: 50vw;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: var(--accent1-color);
     border: solid;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
 
 }
+main div h1{
+    text-align: center;
+}
+#news h1{
+    text-align: center;
+
+}
+#weather{
+    position: relative;
+}
+#weather h1{
+    margin-bottom: 20vw;
+}
+#weather img{
+    max-height: 20vw;
+    position: absolute;
+    top: 9vw;
+    left: 50%;
+    transform: translateX(-100%); 
+}
+#weather h2{
+    position: absolute;
+    width: fit-content;
+    font-size: 10vw;
+    top: 5vw;
+    left: 50%;
+    transform: translateX(20%); 
+}
+#weather div{
+    background-color: transparent;
+    border: none;
+    border-top: solid;
+    width: 80vw;
+    
+}
+#join{
+    position: relative;
+}
+#join a{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: var(--accent2-color);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-radius: 20px;
+}
+#join p{
+    position: absolute;
+    width: 50%;
+    margin-top: 150px;
+    left: 50%;
+    transform: translateX(-50%); 
+    
+}
+#event{
+    position: relative;
+}
+#event a{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    color: var(--accent2-color);
+}
+#hero{
+    position: relative;
+}
+#hero img{
+    
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: var(--imgh); 
+    width: var(--img);
+    
+    
+    object-fit: cover;
+
+    
+}
+#hero h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    
+
+}
+#hero a{
+    position:absolute;
+    text-decoration: none;
+    margin: 30px;
+    right: 0;
+    bottom: 0;
+    background-color: var(--accent2-color);
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+}
+
+
 #spotlight{
     height: 100vw;
 }
 #spot3{
     display: none;
 }
+
 .spotlight{
-    width: 80vw;
-    height: 40vw;
+    width: 85vw;
+    height: 45vw;
     background-color: transparent;
-    margin-top: 5vw;
+    margin-top: 2vw;
+    position: relative;
+}
+.spotlight div{
+    background-color: transparent;
+    border: none;
+    border-top: solid;
+    width: 80vw;
+}
+.spotlight h1{
+    margin-top: 1vw;
+    margin-bottom: 15vw;
+}
+.spotlight h1, .spotlight h2{
+    text-align: center;
+}
+.spotlight img{
+    height: 15vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    top: 8vw;
 }
 #join{
     display: none;

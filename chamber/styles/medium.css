@@ -8,6 +8,7 @@
     --fontsmall:2vw;
     --logosize: 9vw;
     --social: 5vw;
+    --imgh: 30vw;
 
 }
 header{
@@ -18,6 +19,7 @@ header{
 #title{
     grid-template-rows: 5vw 5vw;
 }
+
 #date{
     
     padding-top: 2.5vw;
@@ -56,6 +58,21 @@ main div{
     width: 40vw;
     height: 25vw;
 }
+.spotlight img{
+    height: 10vw;
+    top: 5vw;
+}
+.spotlight h1{
+    margin-bottom: 10vw;
+    margin-top: .5vw;
+}
+.spotlight div{
+    width: 35vw;
+    
+}
+.spotlight div p{
+    margin: 0;
+}
 #event{
     width: 55vw;
     margin-left: 3.5vw;
@@ -71,6 +88,23 @@ main div{
 #weather{
     width: 30vw;
     margin-right: 3.5vw;
+}
+#weather h1{
+    margin-bottom: 10vw;
+}
+#weather div{
+    width: 25vw;
+}
+#weather h2{
+    font-size: 5vw;
+    top: 5vw;
+    right: 2vw;
+}
+#weather img{
+    max-height: 10vw;
+
+    top: 6vw;
+    
 }
 #join{
     display: flex;
@@ -93,7 +127,7 @@ footer img{
     grid-row: 1/2;
     margin-left: 25vw;
 }
-#adr h2, p{
+#adr h2, #adr p{
     text-align: left;
     
 }
