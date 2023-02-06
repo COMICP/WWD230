@@ -1,8 +1,8 @@
 
 :root{
-    --primary-color: #000000   ;
-    --secondary-color: white ;
-    --accent1-color: #99c0e4;
+    --primary-color: #000000;
+    --secondary-color: white;
+    --accent1-color: #b6d8f8;
     --accent2-color: #ffce6d;
     --fontsizebig: 5vw;
     --fontsizebigish: 3.5vw;
@@ -259,7 +259,11 @@ main div h1{
     position: absolute;
     left: 50%;
     transform: translateX(-50%); 
-    color: var(--accent2-color);
+    color: black;
+    background-color: var(--accent2-color);
+    padding: 20px 30px 20px 30px;
+    border: solid;
+    border-radius: 20px;
 }
 #hero{
     position: relative;
