@@ -55,7 +55,14 @@
     </header>
     <main>
         <div id="hero">
-            <img src="images/TheCleaners-2.jpg" alt="Bridge Picture">
+            
+            <img src="images/TheCleaners-2.jpg" alt="Bridge Picture" sizes="100vw"
+            srcset="
+                    images/wdd230-org-small.jpg 300w,
+                    images/medium.jpg 500w, 
+                    images/large.jpg 1000w"
+            
+            >
             
             
             <h1>Welcome to Fredericksburg</h1>
@@ -69,11 +76,11 @@
         <div id="weather">
             <h1>Weather</h1>
             <img src="images/1779940.png" alt="Weather Picture">
-            <h2>XX°</h2>
+            <h2 id="temp">XX°</h2>
             <div>
 
-                <p>Wind Speed: </p>
-                <p>Wind Chill: </p>
+                <p>Wind Speed: <span id="speed">error</span></p>
+                <p>Wind Chill: <span id="chill">error</span></p>
             </div>
         </div>
         <div id="news">
@@ -150,5 +157,6 @@
 
     </footer>
     <script src="scripts/index.js"></script> 
+    <script src="scripts/windchill.js"></script> 
 </body>
 </html>
