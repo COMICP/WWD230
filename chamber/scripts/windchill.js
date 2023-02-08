@@ -1,6 +1,6 @@
 let tempc = 2;
 let tempf = (tempc * 1.8) + 32;
-let sk = 5;
+let sk = 1;
 let sm = sk / 1.609344;
 let chill = 'error';
 
