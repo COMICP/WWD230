@@ -28,5 +28,5 @@ function send(){
 
 
 
-button.addEventListener("click", send)
+button.addEventListener("click", send);
 
