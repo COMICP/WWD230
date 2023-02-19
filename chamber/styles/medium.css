@@ -157,5 +157,16 @@ footer img{
 .left{
     text-align: left;
 }
+.test:hover{
+    filter: blur(0.2em);
+}
+.discdiv{
+    height: auto;
+}
+
+.discdiv p{
+    margin-top: 15vw;
+}
 
 }
+
