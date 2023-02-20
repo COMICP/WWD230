@@ -24,3 +24,21 @@ imagesToLoad.forEach((img) => {
     loadImages(img);
 });
 }
+
+const lastvisitout = document.querySelector("#date2");
+
+
+
+
+let lastvisit = Number(window.localStorage.getItem("visits-ls"));
+let currentvisit = Number(Date.now());
+
+let unp = Math.round((currentvisit - lastvisit) / 84600000);
+
+lastvisitout.textContent = unp + " Days since last visit";
+
+
+
+
+localStorage.setItem("visits-ls", currentvisit);
+
