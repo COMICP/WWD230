@@ -25,9 +25,10 @@ imagesToLoad.forEach((img) => {
 });
 }
 
+
+
+
 const lastvisitout = document.querySelector("#date2");
-
-
 
 
 let lastvisit = Number(window.localStorage.getItem("visits-ls"));
