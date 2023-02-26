@@ -167,6 +167,24 @@ footer img{
 .discdiv p{
     margin-top: 15vw;
 }
+#form{
+    height: fit-content;
+    grid-template-rows: 1fr 1fr;
+}
+#words{
+    transform: translateY(-200px);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    font-size: 30px;
+}
 
+#homebound{
+    margin-top: 500px;
+    padding-bottom: 100px;
+}
 }
 

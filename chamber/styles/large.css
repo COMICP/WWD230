@@ -223,5 +223,30 @@
     .discdiv h1{
         width: 15vw;
     }
+    #form{
+        height: fit-content;
+        grid-template-rows:1fr;
+    }
+    #words{
+        transform: translateY(0px);
+        width: 500px;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    td{
+        font-size: 40px;
+    }
+    #memb{
+        margin-left: 200px;
+    }
+    #thankyoumain{
+        grid-template-columns: 1fr;
+    }
+    #thankyou{
+        height: fit-content;
+        margin-left: 200px;
+    }
 
     }

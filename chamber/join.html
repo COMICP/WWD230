@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Work+Sans&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+        <link type="text/css" rel="stylesheet" href="styles/base.css">
+        <link type="text/css" rel="stylesheet" href="styles/medium.css">
+        <link type="text/css" rel="stylesheet" href="styles/large.css">
+        <meta name="description" content="Discover what Fredericksburg has to offer!">
+        <title>Chamber of commerce discover page</title>
+    </head>
+<body>
+    <header>
+        <div id="title">
+            <img src="images/fxbg-logo-tout-1.webp" alt="Logo">
+            <h1>Fredericksburg </h1>
+            <h2>Camber of Commerce</h2>
+        </div>
+
+        <div id="social">
+            
+            <a href="https://www.facebook.com/">
+                <img src="images/download(1).png" alt="Facebook Link">
+            </a>
+
+            
+            <a href="https://www.linkedin.com/">
+                <img src="images/LinkedIn_logo_initials.png" alt="LinkedIn">
+            </a>
+
+        </div>
+
+        <nav>
+            <button id="hamburgerButton"><Span>&#9776;</Span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <h2 id="date">test test test</h2>
+        
+        
+        
+        
+
+    </header>
+    <main id="form">
+        <div id="memb">
+            <h1>Membership Information</h1>
+            <table>
+                
+                <tr>
+                    <td class="blank">&nbsp;</td>
+                    <td>NP Membership</td>
+                    <td>Bronze Membership</td>
+                    <td>Silver Membership</td>
+                    <td>Gold Membership</td>
+                </tr>
+                <tr>
+                    <td>Weekly State of the Chamber report</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>✔</td>
+            
+                </tr>
+                <tr>
+                    <td>Priority tickets to seminars</td>
+                    <td>X</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                
+                </tr>
+                <tr>
+                    <td>Exclusive training classes</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                </tr>
+                <tr>
+                    <td>Advertizing space in chamber events</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>✔</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div id="words">
+            <form method="get" action="thankyou.html">
+                <h2>Applicant Information: </h2>
+                <input type="hidden" id="time" name="time" value="error">
+                <label>First Name <input type="text" name="fname" required></label> 
+                <label  >Last Name <input type="text" name="lname" required></label> 
+                <label  >Business Position <input type="text" name="title" ></label> 
+                <label  >Company Name <input type="text" name="/title" ></label> 
+                <label  >Phone <input type="tel" name="phone" placeholder="1234567890" required minlength="10"></label> 
+                <label  >Email <input type="email" name="email" placeholder="example@example.com" required></label> 
+                <label  >Company Name <input type="text" name="description" ></label> 
+                <label for="description">Business description: </label><textarea name="description" id="description" cols="20" rows="4"></textarea>
+                <div>
+                    <h2>Membership Level</h2>
+                    <label for="np">NP Membership </label><input type="radio" name="level" id="np">
+                    <label for="bm" >Bronze Membership </label><input type="radio" name="level" id="bm">
+                    <label for="sm" >Silver Membership </label><input type="radio" name="level" id="sm">
+                    <label for="gm" >Gold Membership </label><input type="radio" name="level" id="gm">
+                    
+                </div>
+                
+                <input id="sub" type="submit">
+            </form>
+        </div>
+        
+    </main>
+
+    <footer>
+        <img src="images/fxbg-logo-tout-1.webp" alt="Logo">
+        <div id="adr">
+            <p>Fredericksburg Chamber of Commerce</p>
+            <p class="left">Adress: 2300 Fall Hill Ave Suite 240, Fredericksburg, VA 22401</p>
+            
+        </div>
+        <div id="info">
+            <p>info@Fredericksburg.org</p>
+            <p>(540)-xxx-xxxx</p>
+            <a id="local" href="https://www.google.com/maps/place/2300+Fall+Hill+Ave+Suite+240,+Fredericksburg,+VA+22401/@38.3124706,-77.4724087,17z/data=!3m1!4b1!4m5!3m4!1s0x89b6c1ffb063b6a5:0x3cd0eb43391a2079!8m2!3d38.3124706!4d-77.4724087">📍 Location Map</a>
+        </div>
+
+        <div id="copywrite">
+           
+            <p id = "copy">error</p>
+            <p>Jaden Binette</p>
+            <p>WWD 230 Project</p>
+           
+            <p id = "LastUpdated"></p>
+        </div>  
+    </footer>
+    
+    <script src="scripts/index.js"></script> 
+    <script src="scripts/join.js"></script> 
+</body>
+</html>
