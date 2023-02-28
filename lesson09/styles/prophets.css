@@ -1,0 +1,14 @@
+section{
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    border: solid;
+    margin-bottom: 20px;
+    text-align: center;
+}
+main div{
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(470px, 1fr));
+    
+}
