@@ -209,13 +209,14 @@
     }
     #discovering{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        
     }
+    
 
     .discdiv{
         height: 40vw;
-        width: 19vw;
+        width: 90vw;
     }
     .discdiv p{
         width: 15vw;
