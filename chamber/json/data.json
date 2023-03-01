@@ -1,0 +1,77 @@
+{
+    "businesses": [
+      {
+        "name": "Goolrick's Pharmacy",
+        "adress": "901 Caroline St, Fredericksburg, VA 22401",
+        "phone": "(540) 373-3411",
+        "website": "https://www.goolricksfxbg.com/",
+        "membership": 1,
+        "imageurl": "images/directory/JABI2133-2-min.jpg"
+      },
+      {
+        "name": "The Childress Agency, Inc.",
+        "adress": "1320 Central Park Blvd Suite 200, Fredericksburg, VA 22401",
+        "phone": "(540) 412-5199",
+        "website": "http://www.childressagency.com/",
+        "membership": 4,
+        "imageurl": "images/directory/childress.png"
+      },
+      {
+        "name": "Fredericksburg Deck Builders, Inc.",
+        "adress": "1926 William St, Fredericksburg, VA 22401",
+        "phone": "(540) 907-2307",
+        "website": "http://www.fredericksburgdeckbuilders.com/",
+        "membership": 3,
+        "imageurl": "images/directory/fdb-web-001.png"
+      },
+      {
+        "name": "El Patron",
+        "adress": "316 White Oak Rd #101, Fredericksburg, VA 22405",
+        "phone": "(540) 681-2143",
+        "website": "http://elpatronva.com/index.html#patron3",
+        "membership": 2,
+        "imageurl": "images/directory/patron.png"
+      },
+      {
+        "name": "NAPA Auto Parts ",
+        "adress": "10 Collins Dr, Fredericksburg, VA 22408",
+        "phone": "(540) 376-7200",
+        "website": "https://www.napaonline.com/en/va/fredericksburg/store/35876?cid=pl_DAC_jobber_CCBAuto&TruckParts_35876",
+        "membership": 1,
+        "imageurl": "images/directory/napa.png"
+      },
+      {
+        "name": "Valvoline Instant Oil Change",
+        "adress": "10006 Patriot Hwy, Fredericksburg, VA 22407",
+        "phone": "(540) 369-4387",
+        "website": "https://store.vioc.com/va/fredericksburg/oil-change-080025.html?utm_source=google&utm_medium=local&utm_campaign=localsearch",
+        "membership": 1,
+        "imageurl": "images/directory/valve.png"
+      },
+      {
+        "name": "Mellow Mushroom",
+        "adress": "609 William St, Fredericksburg, VA 22401",
+        "phone": "(540) 997-3033",
+        "website": "https://mellowmushroom.com/location/va-fredericksburg-609-william-street-22401/",
+        "membership": 2,
+        "imageurl": "images/directory/mellow.png"
+      },
+      {
+        "name": "Hartwood Photography",
+        "adress": "200 William St, Fredericksburg, VA 22401",
+        "phone": "(540) 840-8614",
+        "website": "http://www.hartwoodphotography.com/",
+        "membership": 1,
+        "imageurl": "images/directory/hart.jpg"
+      },
+      {
+        "name": "Chick-fil-A",
+        "adress": "1698 Carl D. Silver Pkwy, Fredericksburg, VA 22401",
+        "phone": "(540) 786-7979",
+        "website": "https://www.chick-fil-a.com/locations/va/central-park?utm_source=yext&utm_medium=link",
+        "membership": 2,
+        "imageurl": "images/directory/chick.png"
+      }
+
+    ]
+}

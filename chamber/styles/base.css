@@ -547,3 +547,54 @@ tr:nth-child(odd){
     text-decoration: none;
     text-align: center;
 }
+
+#directory{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+}
+.card img{
+    max-width: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.card a{
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.card{
+    border: solid 1px;
+    margin: 20px;
+    padding: 20px;
+    
+}
+#tile{
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: var(--accent2-color);
+    font-size: 30px;
+}
+#tile:hover{
+    background-color: #caa457;
+}
+
+.direct{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card:nth-child(even){
+    background-color:var(--accent2-color);
+}
+.direct.open{
+    grid-template-columns: 1fr;
+}
+.bimg.open{
+    display: none;
+}

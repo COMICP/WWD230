@@ -186,5 +186,16 @@ td{
     margin-top: 500px;
     padding-bottom: 100px;
 }
+
+.card.open{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.direct{
+    grid-template-columns: 
+    repeat(auto-fit, minmax(430px, 1fr));
+}
 }
 

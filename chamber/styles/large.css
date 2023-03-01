@@ -249,5 +249,7 @@
         height: fit-content;
         margin-left: 200px;
     }
-
+    #directory div{
+        width: 90vw;
+    }
     }
