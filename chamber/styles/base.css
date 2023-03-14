@@ -275,6 +275,7 @@ main div h1{
     left: 0px;
     height: var(--imgh); 
     width: var(--img);
+    filter: blur(2px);
     
     
     object-fit: cover;
