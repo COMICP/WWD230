@@ -77,8 +77,10 @@ else{
     chill = "na";
 }
 function windchill(){
-    let factor = 35.74 + (0.6215*tempf) - (35.75*sm^0.16) + (0.4275*tempf*sm^0.16);
-    chill = tempf + Math.round(factor);
+    let T = tempf;
+    let V = sm
+    let factor = 0.0817*(3.71*V**0.5 + 5.81 -0.25*V)*(T - 91.4) + 91.4 ;
+    chill = Math.round(factor);
 
 
 }

@@ -59,12 +59,13 @@ main div{
     height: 25vw;
 }
 .spotlight img{
-    height: 10vw;
-    top: 5vw;
+    max-height: 10vw;
+    margin-top: 1vw;
 }
 .spotlight h1{
-    margin-bottom: 10vw;
+    margin-bottom: 13vw;
     margin-top: .5vw;
+    
 }
 .spotlight div{
     width: 35vw;
