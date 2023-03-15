@@ -64,7 +64,7 @@ header{
     grid-row: 3/4;
     grid-column: 1/4;
     margin-left: 0%;
-    width: 90vw;
+    width: 90%;
     margin: auto;
     margin-bottom: 20px;
     
@@ -125,7 +125,7 @@ nav ul {
     list-style-type: none;
     display: none;
     position: absolute;
-    right: 20vw;
+    right: 0vw;
    
     background-color: var(--accent2-color);
     padding: 10px;

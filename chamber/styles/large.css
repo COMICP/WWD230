@@ -139,6 +139,7 @@
     nav ul{
         background-color: transparent;
         margin: 0px;
+        margin-right: 30vw;
         position: relative;
         
     }
@@ -258,5 +259,6 @@
     #directory div{
         width: 90vw;
     }
+   
     
     }
