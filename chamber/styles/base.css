@@ -50,8 +50,25 @@ header{
     background-color: var(--accent1-color);
     display: grid;
     grid-template-columns:3fr 2fr 1fr ;
-    grid-template-rows: 20vw 20vw;
+    grid-template-rows: 20vw 20vw 20vw;
 
+
+}
+#banorADD{
+    background-color: var(--accent2-color);
+    padding-right: 0%;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid;
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    margin-left: 0%;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
 }
 #title{
     display: grid;
