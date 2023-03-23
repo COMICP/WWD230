@@ -1,0 +1,16 @@
+@media only screen and (min-width: 35rem) {
+    
+:root{
+
+    --fontsizebig: 3vw;
+    --fontsizebigish: 2vw;
+    --fontsizemed:2vw;
+    --fontsmall:2vw;
+    --logosize: 9vw;
+    --social: 5vw;
+    --imgh: 30vw;
+
+}
+
+}
+
