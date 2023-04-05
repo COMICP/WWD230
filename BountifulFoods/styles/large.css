@@ -12,4 +12,7 @@
         --imgh: 64vh;
 
     }
+    main{
+        max-width: 2000px;
+    }
 }

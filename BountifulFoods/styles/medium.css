@@ -11,6 +11,26 @@
     --imgh: 30vw;
 
 }
+header div{
+    display: block;
+}
+#conta{
+    display: inline-block;
+    width: 30vw;
+    margin-left: 0px;
+    
 
+    
+}
+#call{
+    width: 40%;
+    
+
+    display: inline-block;
+    margin-left: 10%;
+}
+#weather div{
+    width: 47%;
+}
 }
 
